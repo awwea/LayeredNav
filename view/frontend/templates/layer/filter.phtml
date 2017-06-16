@@ -25,7 +25,7 @@ $filter = $this->getFilter();
 $attributeCode = $filter->getRequestVar();
 
 /** @type \Mageplaza\Layerednavigation\Model\Layer\Filter $filterModel */
-$filterModel = $this->helper('\Mageplaza\Layerednavigation\Helper\Data')->getFilterModel();
+$filterModel = $this->helper('\Mageplaza\LayeredNavigation\Helper\Data')->getFilterModel();
 ?>
 <ol class="items">
     <?php /** @type  $filterItem */ foreach ($filterItems as $filterItem): ?>
